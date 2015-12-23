@@ -7,4 +7,4 @@ Integrate the cpp-lint C++ style checker(open-source-google-project) into your p
 
 * To check a single code file, run `python lint/cpplint.py filename`
 
-* Note: `make lint` will produce some temporary files, `make lintclean` will delete them. `lint/.lint* and lint/lint.txt` should be added to the .gitignore file if using git 
+* Note: `make lint` will produce some temporary files, located as `lint/.lint* and lint/lint.txt`. `make lintclean` will delete them.  And they should be added to the .gitignore file if use git.
